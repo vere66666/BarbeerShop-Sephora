@@ -1,0 +1,153 @@
+body {
+    background-color: rgb(239, 199, 77);
+    width: 100%;
+    height: 100%;
+}
+
+.body_child {
+    margin: -1% 5% -2% 5% ;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+
+.div_img{
+    display: flex;
+    justify-content: center;
+}
+
+.div_img > img {
+    margin-top: 16px;
+    margin-bottom: -14px;
+}
+
+.div_nav {
+    position: relative;
+    height: 40px;
+}
+
+.flex_container_nav {
+    width: 700px;
+    position :absolute;
+    bottom:-148%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    display:flex;
+    flex-direction: row;
+    gap: 70px; 
+    justify-content: center;
+    list-style: none;
+    font-size: 14px;
+    background-color: rgb(240, 171, 60);
+    border-radius: 30px;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    padding: 13px 60px 13px 60px;
+}
+
+#flex_container2_main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(main_photo/barbershop_people.jpeg);
+    padding: 0rem 5rem 0rem 5rem;
+    height: 60vh;
+    letter-spacing: 0.4px;
+    color: rgb(255, 242, 207);
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.flex_container2bis_texte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 110px;
+  }
+.flex_container2bis_texte > p {
+    font-size: 16px;
+    letter-spacing: 0.2px ;
+}
+
+  .flex_container2bis_bouttons {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.flex_container2bis_bouttons button {
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 12px;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    
+}
+
+/* unvisited link */
+ a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+a:hover {
+    color: rgb(225, 119, 19);
+    text-decoration: none;
+  }
+  
+  /* selected link */
+ a:active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+
+#flex_container3_footer {
+    display: flex;
+    justify-content: center;
+  }
+
+
+.flex_container3bis_footer {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+    margin-right: 94px;
+    justify-content: space-between;
+    color: rgba(237, 138, 18, 0.926);
+    font-size: 13px;
+}
+
+.copyright {
+    margin-top: 180px;
+}
+
+.donees_contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.reseaux_sociaux {
+    margin-top:8px;
+    display: flex;
+    flex-direction: column;
+}
+.photos_reseaux {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 13px;
+    margin-top: 10px;
+}
